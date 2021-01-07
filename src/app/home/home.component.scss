@@ -11,10 +11,9 @@ ion-menu-button {
 }
 
 .content {
-  width: 100%;
-  height: 100%;
-  background-image: url("/assets/img/bghome.jpg");
-
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
 }
 
 .text {
@@ -25,10 +24,10 @@ ion-menu-button {
 }
 
 .circle {
-  width: 37%;
-  display: inline-block;
-  vertical-align: middle; 
-
+  position:absolute;
+  height:auto;
+  width:90vw;
+  z-index: 1;
 }
 
 
@@ -218,28 +217,13 @@ ion-menu.ios ion-item.selected {
 
 
 
-
-
-
-
-
-
-      .nav {
+.info {
+        position: relative;
+        width: calc(70% - 240px);
+        /* width: 500px */
+        /* height: 500px */
+        transform: scale(1);
         display: inline-block;
         vertical-align: middle;
-        list-style-type: none;
-        margin-left: 20px; }
-         .nav li {
-          margin-bottom: 10px; }
-          .nav li a {
-            display: block;
-            padding: 10px;
-            background: #EC7703;
-            font-family: "Didact Gothic", sans-serif;
-            font-size: 25px;
-            color: #fff;
-            font-weight: lighter;
-            letter-spacing: 1px;
-            transition: all 0.2s ease; }
-             .nav li a:hover {
-              background: #d76f08; }
+        padding-bottom: 36%;
+        overflow: hidden; }
