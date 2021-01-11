@@ -11,9 +11,10 @@ ion-menu-button {
 }
 
 .content {
-  position: absolute;
-  top: 20vh;
-  left: 5vw;
+  width: 100%;
+  height: 100%;
+
+
 }
 
 .text {
@@ -227,3 +228,36 @@ ion-menu.ios ion-item.selected {
         vertical-align: middle;
         padding-bottom: 36%;
         overflow: hidden; }
+
+
+
+.footer {
+  display: table;
+  width: 100%;
+  height: 120px;
+  background: #fff;
+  padding: 40px; }
+  
+.wrap {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0px; }
+.wrap .info {
+      display: inline-block;
+      vertical-align: middle;
+      width: 50%;
+      font-size: 12px;
+      text-align: left; }
+.wrap .info img {
+        max-height: 40px;
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 200px;
+        width: 20%; }
+.wrap .info p {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px; }
+.wrap .info:last-child {
+        text-align: right; }
